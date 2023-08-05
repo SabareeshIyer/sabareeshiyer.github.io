@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "POST-TITLE"
-date: YYYY-MM-DD hh:mm:ss -0000
-categories: CATEGORY-1 CATEGORY-2
+title: "Test Post"
+date: 2023-08-05 18:12:06 -0000
+categories: test test-2
 ---
 
 Trying a test post to check how we're doing.
