@@ -35,6 +35,41 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
 
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
+      show_date: true
+      author_profile: true
+
+search: true
+#twitter:
+# username: "sabareesh_iyer"
+
+# Site author
+author:
+  name: "Sabareesh Iyer"
+  location: "Boston, MA"
+  bio: "Software Engineer with a passion for elegance, fervor for performance and love for food."
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/sabareesh_iyer"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/SabareeshIyer"
+    - label: "DEV Community"
+      icon: "fab fa-fw fa-dev"
+      url: "https://dev.to/sabareesh_iyer"
+
+
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to

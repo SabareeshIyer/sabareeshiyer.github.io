@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title: "Test Post"
 date: 2023-08-05 18:12:06 -0000
 categories: test test-2

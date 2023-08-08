@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: single
 title: About
 permalink: /about/
+author_profile: true
 ---
 
 Howdy. I'm a Software Engineer by trade currently located in Boston, MA.
